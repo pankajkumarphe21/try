@@ -5,7 +5,7 @@ import makeRequest from './axios'
 function App() {
   useEffect(()=>{
     const fetchData=async()=>{
-      const p=await makeRequest.get('/');
+      const p=await makeRequest.get('/auth');
       console.log(p.data)
     };
     fetchData();
