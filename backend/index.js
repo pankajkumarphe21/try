@@ -11,5 +11,9 @@ app.get('/',(req,res)=>{
     const output=['pankaj','123'];
     res.status(200).json(output)
 })
+app.get('/auth',(req,res)=>{
+    const output=['pankaj','123'];
+    res.status(200).json(output)
+})
 
 app.listen(8800);
