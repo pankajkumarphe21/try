@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const makeRequest=axios.create({
-    baseURL:'http://localhost:8800'
+    baseURL:'https://try-five-iota.vercel.app'
 })
 
 export default makeRequest;
